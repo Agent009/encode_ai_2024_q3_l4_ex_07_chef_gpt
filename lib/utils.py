@@ -1,6 +1,3 @@
-from sys import intern
-
-
 def multiline_input(prompt: str) -> str:
     """
     Captures multi-line user input. Input is terminated by pressing ENTER twice.

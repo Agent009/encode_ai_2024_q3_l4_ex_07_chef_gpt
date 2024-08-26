@@ -7,16 +7,13 @@ def multiline_input(prompt: str) -> str:
     :param prompt: The prompt asking for user input
     :return: The multiline user input
     """
+    print(prompt)  # Display the prompt once
     lines = []
-    iteration = 0
 
     while True:
-        iteration = iteration + 1
-        line = input(prompt if iteration > 1 else "")
-
+        line = input()  # No need to show the prompt again
         if line == "":
             break
-
         lines.append(line)
 
     user_input = "\n".join(lines)

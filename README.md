@@ -10,5 +10,14 @@ The report can be found here: [Report_L4_Weekend_Project.pdf](Report_L4_Weekend_
 ## Setup
 Copy `.env.sample` and create your `.env` file, replacing placeholder values with actual values.
 
+## Running
+Either run via VSCode / PyCharm / your IDE of choice, or use the command line.
+
+For example, on windows, point to your `venv` and then run your file:
+
+```bash
+& /path/to/python.exe /path/to/script.py
+```
+
 ## Resources
 * [GitHub Repo - Encode-Club-AI-Bootcamp / Generative-AI-Applications](https://github.com/Encode-Club-AI-Bootcamp/Generative-AI-Applications)

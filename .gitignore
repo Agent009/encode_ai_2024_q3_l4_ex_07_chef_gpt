@@ -1,2 +1,8 @@
+# IDE files
+.idea
+
 # Environment variables
 .env
+
+# Cache
+**/__pycache__/**

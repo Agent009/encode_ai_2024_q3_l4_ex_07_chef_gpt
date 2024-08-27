@@ -21,6 +21,7 @@ def run_chat_completion (messages):
     for chunk in stream:
         chunk_message = chunk.choices[0].delta.content or ""
         print(chunk_message, end="")
+        # collect the system messages
         collected_messages.append(chunk_message)
 
     return collected_messages
